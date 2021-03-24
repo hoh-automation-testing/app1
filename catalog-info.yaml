@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-grpc"
+  description: "something to document"
+  annotations:
+    github.com/project-slug: hoh-automation-testing/app1
+    backstage.io/techdocs-ref: url:https://github.com/hoh-automation-testing/app1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "hoh"
